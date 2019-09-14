@@ -165,6 +165,28 @@
                     ]
                 },
                 {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 284,
+                    "y": 117,
+                    "uniqueID": 950419,
+                    "ioValues": [],
+                    "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 284,
+                    "y": 121,
+                    "uniqueID": 606028,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Constant",
                     "name": "Constant - Radius",
                     "x": 72,
@@ -174,28 +196,6 @@
                         {
                             "name": "number",
                             "ioValue": 9.9
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 284,
-                    "y": 149,
-                    "uniqueID": 950419,
-                    "ioValues": [],
-                    "readmeText": "Maslow Create is a new type of CAD program where you define the thing you want to create logically, rather than by drawing. Each project is composed of Atoms and Molecules. Each atom performs one logical task like rotating the shape, each Molecule can contain any number of inter connected Atoms. To place an atom or molecule right click anywhere on the flow drawing canvas."
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 284,
-                    "y": 291,
-                    "uniqueID": 606028,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -224,7 +224,7 @@
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 518,
-                    "y": 287,
+                    "y": 121,
                     "uniqueID": 934230,
                     "ioValues": [
                         {
@@ -246,7 +246,7 @@
                     "atomType": "Difference",
                     "name": "Difference",
                     "x": 698,
-                    "y": 196,
+                    "y": 121,
                     "uniqueID": 449683,
                     "ioValues": []
                 },
@@ -254,7 +254,7 @@
                     "atomType": "Readme",
                     "name": "README",
                     "x": 716,
-                    "y": 282,
+                    "y": 117,
                     "uniqueID": 606302,
                     "ioValues": [],
                     "readmeText": "This difference Atom subtracts one shape from another. For the opposite behavior check out the intersection atom."
@@ -276,7 +276,7 @@
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 959,
-                    "y": 156,
+                    "y": 121,
                     "uniqueID": 140877,
                     "ioValues": [
                         {
@@ -298,7 +298,7 @@
                     "atomType": "Readme",
                     "name": "README",
                     "x": 1105,
-                    "y": 123,
+                    "y": 117,
                     "uniqueID": 650474,
                     "ioValues": [],
                     "readmeText": "The output of the program defines what will be displayed in the project thumbnail and what shape will be used for displaying changes over time. The output of the project should be connected to the output Atom. Each Molecule comes with one Output atom which cannot be deleted."
@@ -325,16 +325,16 @@
                     "ap2ID": 636389
                 },
                 {
-                    "ap1Name": "number",
-                    "ap2Name": "Radius",
-                    "ap1ID": 832924,
-                    "ap2ID": 742531
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 606028,
                     "ap2ID": 934230
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Radius",
+                    "ap1ID": 832924,
+                    "ap2ID": 742531
                 },
                 {
                     "ap1Name": "geometry",
